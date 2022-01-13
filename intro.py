@@ -39,6 +39,8 @@ print(name[1:-1])  # => 'ennife'
 
 # Formatted Strings
 first = 'John'
-last = 'Smith'
+last = 'Doe'
 message = first + ' [' + last + '] is a coder'
-print(message)  # => John [Smith] is a coder
+print(message)  # => John [Doe] is a coder
+msg = f'{first} [{last}] is a coder'
+print(msg)  # => Same output
